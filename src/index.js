@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Put all JSX in to selector 
 ReactDOM.render(
+  // JSX
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // Selector
   document.getElementById('root')
 );
 
